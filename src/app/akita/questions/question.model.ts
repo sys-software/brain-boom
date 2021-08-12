@@ -9,6 +9,6 @@ export interface Question extends StorageDataQuestion {
 export function createQuestion(params: Partial<Question>) {
   return {
     ...params,
-    id: typeof params.id !== 'undefined' ? params.id : nextId++
+    id: params.id ? params.id : nextId++
   } as Question;
 }

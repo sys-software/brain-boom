@@ -16,10 +16,12 @@ function getValid() {
         "questionPicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==",
         "answers": [
           {
+            "id": "1",
             "text": "True answer option text./n May be multine",
-            "truth": 0
+            "truth": 1
           },
           {
+            "id": "2",
             "text": "False answer option text.",
             "truth": 0
           },

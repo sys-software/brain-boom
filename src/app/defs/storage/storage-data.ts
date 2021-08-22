@@ -3,5 +3,5 @@ import {StorageDataQuestion} from './storage-data-question';
 
 export interface StorageData {
   version: StorageDataVersion,
-  questions: StorageDataQuestion
+  questions: StorageDataQuestion[]
 }
